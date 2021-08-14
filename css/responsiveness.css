@@ -1,0 +1,164 @@
+@media screen and (max-width: 411px){
+    #home-header-h2 h2{
+        font-size: 30px;
+    } 
+}
+@media screen and (max-width: 485px){
+    .inner-home-content-article h2{
+        font-size: 40px;
+    }  
+}
+@media screen and (max-width: 1353px){
+    .about-img-right{
+        display: none;
+    }
+}
+@media screen and (max-width: 540px){
+    #ourservice-content-box{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 507px){
+    .testi-element-img1{
+        display: none;
+    }
+    
+    .testi-element-img2{
+        display: none;
+    }
+}
+@media screen and (max-width: 330px){
+    .latest-article-contents-box{
+        width: 250px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    
+}
+@media screen and (max-width: 650px){
+    .latest-article-contents{
+        display: flex;
+        flex-direction: column;
+    }
+    .latest-article-contents-box{
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .testi-element-img1{
+        float: left;
+        position: relative;
+        left: -50px;
+        top: 350px;
+        height: 100px;
+    }
+
+}
+@media screen and (max-width: 700px){
+    .inner-home-banner-container{
+        display: flex;
+        flex-direction: column;
+       text-align: center;
+    }
+    .home-content-img{
+        width: 100%;
+        height: 300px;
+    }
+}
+@media screen and (max-width: 760px){
+    #home{
+        background-image: url(../img/element.png);
+        background-repeat: no-repeat;
+        background-position: top 80px left -90px;
+    }
+    .inner-home-content-article{
+        margin-top: 20px;
+    }
+    .inner-footer-container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .home-content-article{
+        width: 100%;
+    }
+    .footer-content-box-one, .footer-content-box{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 30px ;
+    }
+    .footer-pragraph{
+        width: 100%;
+    }
+    .inner-ourservice-banner-container p{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 850px){
+    .inner-header-wrapper{
+        padding: 10px;
+    }
+    .inner-header-wrapper .top-nav-menu{
+        position: absolute;
+        width: 80%;
+        height: calc(100vh - 50px);
+        background-color: #ffffff;
+        top: 100%;
+        left: -100%;
+        transition: 0.5s;
+        box-shadow: 0 35px 50px -12px rgba(0, 0, 0, 0.25);
+    }
+    .inner-header-wrapper .top-nav-menu.active{
+        left: 0;
+    }
+    .inner-header-wrapper .top-nav-menu ul{
+        display: block;
+    }
+    .inner-header-wrapper .top-nav-menu ul li{
+        border-bottom: 1px solid rgba(117, 116, 116, 0.2);
+    }
+    .inner-header-wrapper .top-nav-menu ul li a{
+        width: 100%;
+        margin: 0;
+        padding-left: 38px;
+    }
+    .inner-header-wrapper .logo{
+        top: 5px;
+    }
+    .inner-header-wrapper .menu-toggle{
+        display: block;
+    }
+    .ourservice-content-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .inner-leading-health-banner-container, .inner-download-apps-banner-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .leading-health-img-container, .download-apps-img-container{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .leading-health-articles-container, .download-apps-articles-container{
+        width: 100%;
+        margin: auto;
+    }
+    .inner-health-articles-article, .download-apps-articles-container{
+        margin-top: 20px;
+        margin: auto;
+        text-align: center;
+    }
+ 
+    .inner-download-apps-articles-article{
+        width: 100%;
+        margin: auto;
+    }
+    .leading-health-underline{
+        position: relative;
+        margin: auto;
+    }
+}
